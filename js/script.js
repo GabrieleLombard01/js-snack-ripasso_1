@@ -11,3 +11,4 @@
 const domElement = document.getElementById('domElement');
 
 // Ottenere il Nome
+const name = prompt('Inserisci il tuo nome', 'Gabriele');
