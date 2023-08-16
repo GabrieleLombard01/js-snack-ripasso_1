@@ -38,9 +38,10 @@ Il programma dovrà chiedere all'utente il numero di chilometri che vuole percor
 
 ## SCALETTA:
 
-- Recupero l'elemento dal DOM
-- Ottenere il Numero di kilometri da percorrere
-- Ottenere l'età del passeggero
-- Ottenere prezzo calcolando 0.21 € al km
-- Se l'utente è minore applicare sconto del 20%
-- Se l'utente è over 65 applicare sconto del 40%
+0. Prendiamo un elemento nel DOM
+1. Chiedere all'utente il numero di kilometri che vuole percorrere
+2. Chiedere all'utente l'età del passeggero
+3. Calcolare il prezzo del biglietto e salvarlo in una variabile
+4. Se l'utente ha anni da 0 a 18 (compresi), sottrarre -20% al prezzo biglietto
+5. Se l'utente ha anni da 65 a max (compresi), sottrarre -40% al prezzo biglietto
+6. Stampare il prezzo finale sull'elemento del DOM
