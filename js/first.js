@@ -23,6 +23,5 @@ const color = prompt('Inserisci il tuo colore preferito', 'verde');
 const password = name + surname + color;
 console.log(password);
 
-
 //Stampo la password in pagina
 domElement.innerText = password
