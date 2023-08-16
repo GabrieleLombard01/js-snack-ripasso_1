@@ -14,3 +14,19 @@
 - Ottenere il Colore preferito
 - Generare password
 - Stampo la password in pagina
+
+<hr>
+
+# TRACCIA:
+
+Chiediamo all 'utente con due prompt gli anni di due persone. Andiamo poi a verificare
+quale delle due è più grande e lo comunichiamo
+
+<hr>
+
+## SCALETTA:
+
+- CHIEDO l'età
+- CHIEDO un'altra età
+- CALCOLO il maggiore
+- COMUNICO chi è il più grade
