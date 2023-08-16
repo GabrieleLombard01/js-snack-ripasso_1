@@ -21,7 +21,19 @@ console.log(UserAge)
 
 // Calcolare il prezzo del biglietto e salvarlo in una variabile
 const priceMoltiplicator = 0.21;
-const price = priceMoltiplicator * UserKm;
+let price = priceMoltiplicator * UserKm;
 console.log(price)
 
 // Se l'utente ha anni da 0 a 18 (compresi), sottrarre -20% al prezzo biglietto
+// Se l'utente ha anni da 65 a max (compresi), sottrarre -40% al prezzo biglietto
+const youngPeople = price * 0.2;
+const oldPeople = price * 0.4;
+
+if (UserAge < 18) {
+    price += - youngPeople
+}
+else if (UserAge > 64) {
+    price += - oldPeople
+}
+
+console.log(price)
