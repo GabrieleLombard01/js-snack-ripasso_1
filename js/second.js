@@ -9,6 +9,15 @@
 const domElement = document.getElementById('domElement');
 
 // Chiedo l'età all'utente
-const firstAge = prompt(parseInt('Inserire la prima età da calcolare'));
+const firstAge = prompt('Inserire la prima età da calcolare');
 
-console.log(firstAge)
+// Chiedo la seconda età all'utente 
+const secondAge = prompt('Inserire la seconda età da calcolare');
+ 
+// Calcolo il maggiore
+if (firstAge > secondAge) {
+    domElement.innerText = `E' maggiore la prima età inserita`
+    }
+else {
+    domElement.innerText = `E' maggiore la seconda età inserita`
+}
