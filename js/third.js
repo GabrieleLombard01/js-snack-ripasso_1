@@ -37,3 +37,6 @@ else if (UserAge > 64) {
 }
 
 console.log(price)
+
+// Stampare il prezzo finale sull'elemento del DOM
+domElement.innerText = `Il prezzo finale del biglietto è di €` + ' ' + price;
