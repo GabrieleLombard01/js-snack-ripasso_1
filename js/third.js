@@ -16,5 +16,12 @@ const UserKm = parseInt(prompt('Scegli i km che vuoi percorrere', '10', 500));
 console.log(UserKm)
 
 // Chiedere all'utente l'età del passeggero
-const UserAge = parseInt(prompt('Inserisci la tua età', '18', 200));
+const UserAge = parseInt(prompt('Inserisci la tua età', '18', 200).trim());
 console.log(UserAge)
+
+// Calcolare il prezzo del biglietto e salvarlo in una variabile
+const priceMoltiplicator = 0.21;
+const price = priceMoltiplicator * UserKm;
+console.log(price)
+
+// Se l'utente ha anni da 0 a 18 (compresi), sottrarre -20% al prezzo biglietto
