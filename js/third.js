@@ -14,3 +14,7 @@ const domElement = document.getElementById('domElement');
 // Chiedere all'utente il numero di kilometri che vuole percorrere
 const UserKm = parseInt(prompt('Scegli i km che vuoi percorrere', '10', 500));
 console.log(UserKm)
+
+// Chiedere all'utente l'età del passeggero
+const UserAge = parseInt(prompt('Inserisci la tua età', '18', 200));
+console.log(UserAge)
